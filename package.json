@@ -1,0 +1,48 @@
+{
+  "name": "sort.js",
+  "version": "0.0.1",
+  "description": "Sort.js is an advanced JavaScript sorting library, built for developers who demand maximum performance, stability, and control.",
+  "keywords": [
+    "sort",
+    "sorting",
+    "sorting library",
+    "javascript",
+    "performance"
+  ],
+  "license": "MIT",
+  "author": "Lietson Dos Santos",
+  "homepage": "https://github.com/liets0n/sort.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liets0n/sort.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/liets0n/sort.js/issues"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "CHANGELOG.md",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "clean": "rm -rf ./dist",
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "packageManager": "pnpm@10.12.4",
+  "devDependencies": {
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "ES2020",                                 /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "lib": ["ES2020"],                                  /* Garante API moderna (ex: Promise.allSettled). */
+
+    /* Modules */
+    "module": "ESNext",                                 /* Specify what module code is generated. */
+    "moduleResolution": "node",                         /* Specify how TypeScript looks up a file from a given module specifier. */
+
+    /* Emit */
+    "noEmit": true,                                     /* Disable emitting files from a compilation. */
+
+    /* Interop */
+    "esModuleInterop": true,                            /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+    "forceConsistentCasingInFileNames": true,           /* Ensure that casing is correct in imports. */
+    "allowSyntheticDefaultImports": true,
+
+    /* Type Checking */
+    "strict": true,                                     /* Enable all strict type-checking options. */
+    "noImplicitAny": true,                              /* Enable error reporting for expressions and declarations with an implied 'any' type. */
+    "strictNullChecks": true,                           /* When type checking, take into account 'null' and 'undefined'. */
+    "noUnusedLocals": true,                             /* Enable error reporting when local variables aren't read. */
+    "noUnusedParameters": true,                         /* Raise an error when a function parameter isn't read. */
+
+    /* Completeness */
+    "skipLibCheck": true                                /* Skip type checking all .d.ts files. */
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "example", "dist", "**/*.test.ts"]
+}
