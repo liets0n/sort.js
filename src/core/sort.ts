@@ -12,7 +12,9 @@
  */
 export default function sort<T>(arr: T[], order: 'asc' | 'desc' = 'asc'): T[] {
   if (order !== 'asc' && order !== 'desc') {
-    throw new TypeError(`Invalid sort order: '${order}'. Expected 'asc' or 'desc'.`);
+    throw new TypeError(
+      `Invalid sort order: '${order}'. Expected 'asc' or 'desc'.`
+    )
   }
 
   return [...arr]

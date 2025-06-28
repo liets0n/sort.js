@@ -38,10 +38,12 @@
   "scripts": {
     "clean": "rm -rf ./dist",
     "build": "tsup",
-    "dev": "tsup --watch"
+    "dev": "tsup --watch",
+    "format": "prettier . --write"
   },
   "packageManager": "pnpm@10.12.4",
   "devDependencies": {
+    "prettier": "3.6.2",
     "tsup": "^8.5.0",
     "typescript": "^5.8.3"
   }

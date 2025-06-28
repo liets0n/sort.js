@@ -1,0 +1,6 @@
+# Ignore artifacts:
+dist
+
+tsconfig.json
+tsup.config.ts
+pnpm-lock.yaml

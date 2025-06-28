@@ -5,4 +5,3 @@ const array_string = ['a', 'b', 'c', 'd', 'e']
 
 console.log('123: ', sort(array_number))
 console.log('ABC: ', sort(array_string))
-
