@@ -39,12 +39,21 @@
     "clean": "rm -rf ./dist",
     "build": "tsup",
     "dev": "tsup --watch",
-    "format": "prettier . --write"
+    "format": "prettier . --write",
+    "prepare": "husky"
   },
   "packageManager": "pnpm@10.12.4",
   "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.2",
     "prettier": "3.6.2",
     "tsup": "^8.5.0",
     "typescript": "^5.8.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
