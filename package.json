@@ -1,7 +1,7 @@
 {
-  "name": "sort.js",
+  "name": "sortfy.js",
   "version": "0.0.1",
-  "description": "Sort.js is an advanced JavaScript sorting library, built for developers who demand maximum performance, stability, and control.",
+  "description": "sortfy.js is an advanced JavaScript sorting library, built for developers who demand maximum performance, stability, and control.",
   "keywords": [
     "sort",
     "sorting",
@@ -11,13 +11,13 @@
   ],
   "license": "MIT",
   "author": "Lietson Dos Santos",
-  "homepage": "https://github.com/liets0n/sort.js",
+  "homepage": "https://github.com/liets0n/sortfy.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/liets0n/sort.js.git"
+    "url": "git+https://github.com/liets0n/sortfy.js.git"
   },
   "bugs": {
-    "url": "https://github.com/liets0n/sort.js/issues"
+    "url": "https://github.com/liets0n/sortfy.js/issues"
   },
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
