@@ -1,4 +1,4 @@
-const { sort } = require('../../dist')
+import sort from 'sortfy.js'
 
 const array_number = [1, 2, 3, 4, 5]
 const array_string = ['a', 'b', 'c', 'd', 'e']
